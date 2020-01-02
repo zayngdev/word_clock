@@ -1,0 +1,34 @@
+name: word_clock
+description: A google clock challenge application
+
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  intl: ^0.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+    - family: AvenirLTStd
+      fonts:
+        - asset: assets/fonts/AvenirLTStd-Roman.otf
+    - family: Monserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+
